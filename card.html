@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style_for_card.css">
+        <title>Did You Receive One of These Cards?</title>
+    </head>
+    
+    <body>
+
+        <div class="logo">
+            <img href="/etable website.html" id="spinCard" src="/imgs/eTable No sign.gif" alt="My Image">
+        </div>
+
+        <div class="options-container">
+            <h2 class="title">Did You Receive One of These Cards?</h2>
+            <div class="options-wrapper">
+                <div class="option-box">
+                    <a href="password.html" class="option-link" id="toggle-button">Yes</a>
+                </div>
+                <div class="option-box">
+                    <a href="/etable website.html" class="option-link">No</a>
+                </div>
+            </div>
+        </div>
+
+        <script> // This the JS used to pause the the Gif when the popup is requested.
+            var myGif = document.getElementById("spinCard");
+
+            function toggleGif() { //function to toggle the Gif
+                if (myGif.paused) {
+                    myGif.play();
+                } else {
+                    myGif.pause();
+                }
+            }
+
+            var toggleButton = document.getElementById("toggle-button");
+            toggleButton.addEventListener("click", toggleGif);
+        </script>
+
+    </body>
+
+</html>

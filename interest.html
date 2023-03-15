@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="interestStyle.css">
+  <title>Welcome</title>
+</head>
+
+<body>
+  <div class="password-container">
+    <div class="logo">
+        <img href="/etable website.html" id="spinCard" src="/imgs/etable white background2.gif" alt="My Image">
+    </div>
+    <h2 class="password-title">Welcome</h2>
+    <p class="password-text">Thank you for your interest in joining eTable.</p>
+    <p class="password-text">Please enter your information below.</p>
+    <form action="#" method="post">
+      <div class="password-inputs">
+        <input type="text" name="fullname" placeholder="Full Name" class="password-input" required>
+        <input type="email" name="email" placeholder="Email Address" class="password-input" required>
+        <input type="tel" name="phone" placeholder="Phone Number" class="password-input" required>
+        <input type="tel" name="linkedin" placeholder="LinkedIn Url" class="password-input" required>
+        <input type="tel" name="reference" placeholder="How Did You Hear About Us?" class="password-input" required>
+      </div>
+      <button type="submit" class="password-button">Submit</button>
+      
+    </form>
+  </div>
+
+  <script>
+    const form = document.querySelector('form');
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      window.location.href = 'thankYou.html';
+    });
+  </script>
+
+
+</body>
+
+</html>

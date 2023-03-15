@@ -1,0 +1,87 @@
+body {
+    background-color: #F8F8F8;
+    font-family: Arial, sans-serif;
+  }
+  
+  .password-container {
+    background-color: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 10px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .password-img {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  
+  .password-title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .password-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: justify;
+}
+  
+  .password-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .password-input {
+    padding: 10px;
+    font-size: 18px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+  }
+  
+  .password-button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .password-button:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+  }
+  
+
+#spinCard {
+    max-height: 600%;
+    max-width: 600%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 50px;
+    margin-top: 120px;
+}
+
+.logo img {
+    max-height: 800%;
+    max-width: 800%;
+}

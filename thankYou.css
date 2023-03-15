@@ -1,0 +1,43 @@
+.box {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  .logo {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    animation: spin 5s linear infinite;
+  }
+  
+  /* @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } */
+  
+  .title {
+    font-family: "Open Sans", sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    text-align: justify;
+    line-height: 1.5em;
+    text-align: center;
+  }
+  
