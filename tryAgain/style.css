@@ -1,0 +1,124 @@
+body {
+ font-family: "Open Sans", sans-serif;
+ font-size: 24px;
+ margin: 0 auto;
+ max-width: 800px;
+ padding: 20px;
+ text-align: justify;
+}
+
+h1, h2, h3 {
+ text-align: center;
+ margin-bottom: 30px;
+}
+
+p {
+ margin-bottom: 20px;
+ text-indent: 50px;
+ line-height: 1.5;
+}
+
+/* Additional styling */
+a {
+ color: #0000EE;
+ text-decoration: none;
+}
+
+a:hover {
+ text-decoration: underline;
+}
+
+em {
+ font-style: italic;
+}
+
+strong {
+ font-weight: bold;
+}
+
+blockquote {
+ font-style: italic;
+ margin-left: 50px;
+ margin-right: 50px;
+ padding: 10px;
+ border-left: 2px solid #CCCCCC;
+}
+
+/* Styles for iPhones */
+@media only screen and (max-width: 767px) {
+ .logo {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 50px;
+ }
+
+ .logo img {
+     max-width: 100%;
+     height: auto;
+ }
+
+ .options-container {
+     display: flex;
+     justify-content: center;
+     margin-top: 100px;
+     text-align: center;
+     flex-wrap: wrap;
+ }
+
+ .option-link {
+     font-family: "Open Sans", sans-serif;
+     font-size: 1.6rem;
+     color: black;
+     margin: 0 10px;
+     padding: 10px;
+     text-decoration: none;
+     border: 2px solid black;
+     border-radius: 5px;
+     transition: all 0.3s ease;
+     flex-basis: 45%;
+     margin-bottom: 20px;
+ }
+}
+
+/* Styles for computers */
+@media only screen and (min-width: 768px) {
+ .logo {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 50px;
+     margin-top: 120px;
+ }
+
+ .logo img {
+     max-height: 800%;
+     max-width: 800%;
+ }
+
+ .options-container {
+     display: flex;
+     justify-content: center;
+     margin-top: 150px;
+     text-align: center;
+ }
+
+ .option-link {
+     font-family: "Open Sans", sans-serif;
+     font-size: 1.6rem;
+     color: black;
+     margin: 0 20px;
+     padding: 10px;
+     text-decoration: none;
+     border: 2px solid black;
+     border-radius: 5px;
+     transition: all 0.3s ease;
+ }
+
+ .option-link:hover {
+     color: rgb(0, 0, 0);
+     background-color: rgba(236, 231, 231, 0.89);
+     border-color: rgb(126, 126, 126);
+     text-decoration: none;
+ }
+}
